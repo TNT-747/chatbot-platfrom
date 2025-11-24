@@ -21,7 +21,7 @@ Pas besoin d'installer Python ou Node.js localement. Tout est géré par Docker.
 ```bash
 # 1. Cloner le projet
 git clone <votre-repo-url>
-cd my-chatbot-platform
+cd chatbot-platform
 
 # 2. Lancer l'environnement complet
 docker-compose up --build
