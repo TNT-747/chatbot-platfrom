@@ -1,0 +1,27 @@
+# --- Général ---
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# --- Backend (Python) ---
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.venv/
+backend/env/
+# TRÈS IMPORTANT : Ne jamais commiter les secrets
+backend/.env
+
+# --- Frontend (Node/React) ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Base de données (Docker Volumes) ---
+# Si jamais tu as monté un volume local dans le dossier
+mongo_data/

@@ -1,0 +1,13 @@
+# Ignorer les dossiers Git
+.git
+.gitignore
+
+# Ignorer les dépendances locales (on les réinstalle proprement dans le Dockerfile)
+backend/venv
+backend/__pycache__
+frontend/node_modules
+frontend/dist
+
+# Ignorer la documentation et les fichiers Docker eux-mêmes
+docker-compose.yml
+README.md
