@@ -1,27 +1,29 @@
-# Plateforme Low-Code Chatbot (PFA)
+# chatbot-platfrom
 
-Une plateforme permettant de créer des chatbots conversationnels intelligents et multilingues via une interface visuelle.
+## 📌 Project Description
+This repository contains a software project developed as part of my academic
+and personal learning journey. The project structure and technologies were
+analyzed automatically to provide a clear and professional documentation.
 
-## 🏗 Architecture DevOps
+## ✨ Key Features
+- Core application logic
 
-Ce projet utilise une architecture micro-services conteneurisée :
-- **Frontend :** React + Vite (Nginx en prod)
-- **Backend :** Python FastAPI
-- **Database :** MongoDB
-- **Infrastructure :** Docker & Docker Compose
+## 🛠 Tech Stack
+- General software project
 
-## 🚀 Démarrage Rapide
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/TNT-747/chatbot-platfrom.git
+   ```
+2. Open the project in your IDE
+3. Follow configuration files to run the application
 
-### Prérequis
-- Docker et Docker Compose installés sur la machine.
+## 📂 Project Structure
+The repository follows a standard structure based on the detected technology stack.
 
-### Installation et Lancement
-Pas besoin d'installer Python ou Node.js localement. Tout est géré par Docker.
+## 👤 Author
+Abderrahmane Kassimi
 
-```bash
-# 1. Cloner le projet
-git clone <votre-repo-url>
-cd chatbot-platform
-
-# 2. Lancer l'environnement complet
-docker-compose up --build
+## 📄 License
+This project is licensed under the MIT License.
